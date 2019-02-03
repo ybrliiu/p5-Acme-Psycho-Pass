@@ -12,13 +12,14 @@ our @IMPORT_MODULES = (
   'warnings',
   'utf8',
   'feature' => [qw( :5.24 )],
-  'Function::Parameters',
+  'Function::Parameters' => [qw( :std :modifiers )],
   'namespace::autoclean',
 );
 
 our %IMPORT_BUNDLES = (
   Class => [
-    'Class::InsideOut' => [qw( register id private )],
+    'Class::InsideOut' => [qw( id register private public readonly )],
+    'Class::Method::Modifiers',
   ],
   Role => [qw( Role::Tiny )],
 );
