@@ -8,6 +8,7 @@ requires 'Type::Tiny', '1.004002';
 
 on 'test' => sub {
   requires 'Test2::Suite', '0.000118';
+  requires 'Test::LoadAllModules', '0.022';
 };
 
 on 'develop' => sub {

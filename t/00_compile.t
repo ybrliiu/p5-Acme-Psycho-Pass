@@ -1,9 +1,7 @@
-use strict;
-use Test::More 0.98;
+use Test::Acme::PsychoPass::Base;
+use Test::LoadAllModules;
 
-use_ok $_ for qw(
-    Acme::PsychoPass
-);
+all_uses_ok(search_path => 'Acme::PsychoPass');
 
 done_testing;
 
