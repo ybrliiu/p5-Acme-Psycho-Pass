@@ -1,6 +1,5 @@
-requires 'perl', '5.008001';
+requires 'perl', '5.024004';
 
 on 'test' => sub {
-    requires 'Test::More', '0.98';
+  requires 'Test2::Suite', '0.000118';
 };
-
