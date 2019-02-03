@@ -12,7 +12,7 @@ readonly name    => my %name;
 readonly role    => my %role;
 readonly cv      => my %cv;
 readonly saying  => my %saying;
-private works    => my %works;
+readonly works   => my %works;
 private age_list => my %age_list;
 
 method new($class:
@@ -29,8 +29,13 @@ method new($class:
 }
 
 method age(Str $work_name) {
-  my $work = $works{$$self}->get($work_name);
-  $age_list{$$self}->get($work);
+  my $maybe_work = $works{$$self}->get($work_name);
+  if ( defined $maybe_work ) {
+    $age_list{$$self}->get($maybe_work);
+  }
+  else {
+    die "work'${work_name}' does not exists.";
+  }
 }
 
 1;

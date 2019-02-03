@@ -27,7 +27,7 @@ my $works_map = method() {
 };
 
 method get(Str $work_name) {
-  $self->$works_map()->{$work_name} // die "work'$work_name' does not exists.";
+  $self->$works_map()->{$work_name};
 }
 
 method as_array_ref() {
