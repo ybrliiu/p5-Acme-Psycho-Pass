@@ -1,4 +1,4 @@
-requires 'perl', '5.024004';
+requires 'perl', '5.024000';
 requires 'Import::Base', '1.004';
 requires 'namespace::autoclean', '0.28';
 requires 'Class::InsideOut', '1.14';
