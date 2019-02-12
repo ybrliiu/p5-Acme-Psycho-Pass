@@ -9,7 +9,6 @@ use aliased 'Acme::PsychoPass::Members::Age';
 use aliased 'Acme::PsychoPass::Members::MemberName';
 use aliased 'Acme::PsychoPass::Members::Member';
 use aliased 'Acme::PsychoPass::Members::Members';
-  use DDP +{ deparse => 1, use_prototypes => 0 };
 
 method create_work($class: HashRef $work_data) {
   Work->new(

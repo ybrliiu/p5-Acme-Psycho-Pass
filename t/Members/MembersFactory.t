@@ -8,7 +8,6 @@ my $members;
 ok lives {
   $members = MembersFactory->create_members($conf->{members});
 };
-diag $@;
 isa_ok $members, Members;
 
 done_testing;
