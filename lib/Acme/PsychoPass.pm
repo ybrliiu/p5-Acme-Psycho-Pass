@@ -1,6 +1,6 @@
 package Acme::PsychoPass;
 
-use 5.024004;
+use 5.024000;
 use strict;
 use warnings;
 use version; our $VERSION = version->declare('v0.0.1');

@@ -1,6 +1,6 @@
 package Acme::PsychoPass::Base;
 
-use 5.024004;
+use 5.024000;
 use strict;
 use warnings;
 use utf8;
