@@ -1,5 +1,5 @@
 name = "Acme-PsychoPass"
-# badges = ["travis"]
+badges = ["travis"]
 module_maker="ModuleBuildTiny"
 static_install = "auto"
 

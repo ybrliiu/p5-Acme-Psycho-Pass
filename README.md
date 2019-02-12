@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ybrliiu/p5-Acme-Psycho-Pass.svg?branch=master)](https://travis-ci.org/ybrliiu/p5-Acme-Psycho-Pass)
 # NAME
 
 Acme::PsychoPass - Module for animation "PSYCHO-PASS" fans.

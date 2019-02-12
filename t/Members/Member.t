@@ -1,3 +1,4 @@
+use lib 't/lib';
 use Test::Acme::PsychoPass::Base;
 
 use aliased 'Acme::PsychoPass::Members::Role';
