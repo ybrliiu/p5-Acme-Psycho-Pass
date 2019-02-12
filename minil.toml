@@ -3,3 +3,5 @@ name = "Acme-PsychoPass"
 module_maker="ModuleBuildTiny"
 static_install = "auto"
 
+[no_index]
+directory = ["t", "xt", "author"]

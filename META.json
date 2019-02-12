@@ -17,12 +17,7 @@
       "directory" : [
          "t",
          "xt",
-         "inc",
-         "share",
-         "eg",
-         "examples",
-         "author",
-         "builder"
+         "author"
       ]
    },
    "prereqs" : {
@@ -55,7 +50,8 @@
       "test" : {
          "requires" : {
             "Test2::Suite" : "0.000118",
-            "Test::LoadAllModules" : "0.022"
+            "Test::LoadAllModules" : "0.022",
+            "Test::Perl::Critic" : "1.04"
          }
       }
    },
