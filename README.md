@@ -1,6 +1,6 @@
 # NAME
 
-Acme::PsychoPass - It's new $module
+Acme::PsychoPass - Module for animation "PSYCHO-PASS" fans.
 
 # SYNOPSIS
 

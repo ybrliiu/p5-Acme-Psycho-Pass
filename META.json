@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Module for animation \"PSYCHO-PASS\" fans.",
    "author" : [
-      "mp0liiu <raian@reeshome.org>"
+      "ybrliiu <raian@reeshome.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.2, CPAN::Meta::Converter version 2.150010",
@@ -33,6 +33,7 @@
       },
       "develop" : {
          "requires" : {
+            "Perl::Critic" : "1.132",
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
             "Test::PAUSE::Permissions" : "0.04",
@@ -42,17 +43,35 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "Class::InsideOut" : "1.14",
+            "Function::Parameters" : "2.001003",
+            "Import::Base" : "1.004",
+            "Role::Tiny" : "2.000006",
+            "Type::Tiny" : "1.004002",
+            "namespace::autoclean" : "0.28",
+            "perl" : "5.024004"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test2::Suite" : "0.000118",
+            "Test::LoadAllModules" : "0.022"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ybrliiu/p5-Acme-Psycho-Pass/issues"
+      },
+      "homepage" : "https://github.com/ybrliiu/p5-Acme-Psycho-Pass",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ybrliiu/p5-Acme-Psycho-Pass.git",
+         "web" : "https://github.com/ybrliiu/p5-Acme-Psycho-Pass"
+      }
+   },
+   "version" : "v0.0.1",
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
 }

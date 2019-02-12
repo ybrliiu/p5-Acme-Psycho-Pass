@@ -20,8 +20,13 @@ our %IMPORT_BUNDLES = (
   Class => [
     'Class::InsideOut' => [qw( id register private public readonly )],
     'Class::Method::Modifiers',
+    'Role::Tiny::With',
   ],
-  Role => [qw( Role::Tiny )],
+  Role => [
+    'Class::InsideOut' => [qw( public readonly )],
+    'Role::Tiny',
+    'Role::Tiny::With',
+  ],
 );
 
 1;
